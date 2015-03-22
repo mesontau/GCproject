@@ -2,7 +2,7 @@ rm(list = ls())
 ####################################################
 # Write here the path to the data folder           #
 #                                                  #
-datafolder <- "/Users/napedro/Dropbox/Coursera/DataScienceSpecialization/03.GettingAndCleaningData/project/UCI_HAR_Dataset"              #
+datafolder <- ""                                   #
 # If datafolder is left in blank,                  #    
 # this script should be placed at the data folder. #
 ####################################################
