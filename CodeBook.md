@@ -41,103 +41,103 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
   
     numeric: 3-axial average and standard deviation at time domain of body accelerometer measurement.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 5. **tGravityAcc-mean-X, tGravityAcc-mean-Y, tGravityAcc-mean-Z, tGravityAcc-std-X, tGravityAcc-std-Y, tGravityAcc-std-Z**
 
     numeric: 3-axial average and standard deviation at time domain gravity accelerometer measurement.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 6. **tBodyAccJerk-mean-X, tBodyAccJerk-mean-Y, tBodyAccJerk-mean-Z, tBodyAccJerk-std-X, tBodyAccJerk-std-Y, tBodyAccJerk-std-Z**
 
     numeric: 3-axial average and standard deviation of the body linear acceleration (derived in time -- Jerk signal) at the time domain.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 7. **tBodyGyro-mean-X, tBodyGyro-mean-Y, tBodyGyro-mean-Z, tBodyGyro-std-X, tBodyGyro-std-Y, tBodyGyro-std-Z**
 
     numeric: 3-axial average and standard deviation of the body angular velocity at the time domain.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 8. **tBodyGyroJerk-mean-X, tBodyGyroJerk-mean-Y, tBodyGyroJerk-mean-Z, tBodyGyroJerk-std-X, tBodyGyroJerk-std-Y, tBodyGyroJerk-std-Z**
 
     numeric: 3-axial average and standard deviation of the body angular velocity (derived in time -- Jerk signal) at the time domain.
 
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 9. **tBodyAccMag-mean, tBodyAccMag-std**
 
     numeric: average and standard deviation of the magnitude (using euclidean norm) of the body linear acceleration at the time domain.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 10. **tGravityAccMag-mean, tGravityAccMag-std**
 
     numeric: average and standard deviation of the magnitude (using euclidean norm) at time domain gravity accelerometer measurement.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 11. **tBodyAccJerkMag-mean, tBodyAccJerkMag-std**
 
     numeric: average and standard deviation of the magnitude (using euclidean norm) of the body linear acceleration (derived in time -- Jerk signal) at the time domain.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 12. **tBodyGyroMag-mean, tBodyGyroMag-std**
 
     numeric: average and standard deviation of the magnitude (using euclidean norm) of the body angular velocity at the time domain.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 13. **tBodyGyroJerkMag-mean, tBodyGyroJerkMag-std**
 
     numeric: average and standard deviation of the magnitude (using euclidean norm) of the body angular velocity (derived in time -- Jerk signal) at the time domain.
 
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 14. **fBodyAcc-mean-X, fBodyAcc-mean-Y, fBodyAcc-mean-Z, fBodyAcc-std-X, fBodyAcc-std-Y, fBodyAcc-std-Z**
 
     numeric: average and standard deviation of Fast Fourier Transform (FFT) of the body linear acceleration. 
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 15. **fBodyAccJerk-mean-X, fBodyAccJerk-mean-Y, fBodyAccJerk-mean-Z, fBodyAccJerk-std-X, fBodyAccJerk-std-Y, fBodyAccJerk-std-Z**
 
     numeric: average and standard deviation of Fast Fourier Transform (FFT) of the body linear acceleration (derived in time -- Jerk signal). 
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 16. **fBodyGyro-mean-X, fBodyGyro-mean-Y, fBodyGyro-mean-Z, fBodyGyro-std-X, fBodyGyro-std-Y, fBodyGyro-std-Z**
 
     numeric: average and standard deviation of Fast Fourier Transform (FFT) of the body angular velocity.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 17. **fBodyAccMag-mean, fBodyAccMag-std**
 
     numeric: average and standard deviation of Fast Fourier Transform (FFT) of the body linear acceleration.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 18. **fBodyBodyAccJerkMag-mean, fBodyBodyAccJerkMag-std**
 
     numeric: average and standard deviation of Fast Fourier Transform (FFT) of the body linear acceleration (derived in time -- Jerk signal).
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 19. **fBodyBodyGyroMag-mean, fBodyBodyGyroMag-std**
 
     numeric: average and standard deviation of Fast Fourier Transform (FFT) of the magnitude of the body angular velocity.
     
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 20. **fBodyBodyGyroJerkMag-mean, fBodyBodyGyroJerkMag-std**
 
     numeric: average and standard deviation of Fast Fourier Transform (FFT) of the magnitude of the body angular velocity (derived in time -- Jerk signal).
 
-    range: [-1,..., 1]
+    range: [-1,..., 1] (normalized values)
 
 21. **inertialsig_BodyAcc_mean_X, inertialsig_BodyAcc_sd_X, inertialsig_BodyAcc_mean_Y, inertialsig_BodyAcc_sd_Y, inertialsig_BodyAcc_mean_Z, inertialsig_BodyAcc_sd_Z**
 
